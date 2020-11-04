@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.z3msandn.workfile",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "monolith",
+    "baseName": "workfile",
+    "packageName": "com.z3msandn.workfile",
+    "packageFolder": "com/z3msandn/workfile",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjFlZmMyYTcyZDJiMzgxNmE3MDZhYTk4MmUwMGRjN2UzNTZhMGIxNTVmOWI2MmM2ZTFiN2Y0ODFjNTcyNTk1YmJmMmQyYTE4N2QxNzE0ZTM3NTc3MzA1NjFhZGU1MjZlMGFmMzQ5OGIyOWU2NWM4MmNkNDdkYzUyNGFkOGYxNDQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1600626514456,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "nl", "fr", "ru"],
+    "blueprints": []
+  }
+}
