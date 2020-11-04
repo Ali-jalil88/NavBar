@@ -14,17 +14,24 @@
   box-shadow: 0px 2px 10px;
   rgba(0,0,0,0.170509);
 }
-.Rectangle{
+.Dashboard{
 position: absolute;
   width: 1643px;
   height: 1960px;
   left: 277px;
   top: 0px;
   background: #2B3253;
-  Effect: Drop shadow;
-  Radius:8px;
-  offset: 0px , 2px;
-  rgba(0,0,0,0.0778)
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.0778245);
+}
+.NavBar{
+  position: absolute;
+  width: 1570px;
+  height: 62px;
+  right: 14px;
+  top: 30px;
+  box-shadow: 0px 2px 8px  rgba(0,0,0,0.135216);
+  background: #0F1642;
+  border-radius: 8px;
 }
 .Bread{
   position:absolute;
