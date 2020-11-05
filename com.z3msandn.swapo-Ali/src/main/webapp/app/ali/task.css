@@ -59,6 +59,15 @@ position: absolute;
   line-height: 13px;
   color: #FFFFFF;
 }
+.icon{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 1394px;
+  top: 22px;
+  color: #FFFFFF;
+}
+
 .Bread{
   position:absolute;
   width: 1570px;
