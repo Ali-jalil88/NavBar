@@ -33,6 +33,32 @@ position: absolute;
   background: #0F1642;
   border-radius: 8px;
 }
+.JohnDoe{
+  position: absolute;
+  height: 17px;
+  left: 91.72%;
+  right: 3.95%;
+  top: calc(50% - 17px/2 - 6.5px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.Available{
+  position: absolute;
+  height: 13px;
+  left: 92.74%;
+  right: 4.14%;
+  top: calc(50% - 13px/2 + 9.5px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
 .Bread{
   position:absolute;
   width: 1570px;
