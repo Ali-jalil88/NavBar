@@ -90,7 +90,24 @@ position: absolute;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
-
+}
+.star{
+  position: absolute;
+  left: 11.78%;
+  right: 86.94%;
+  top: 33.87%;
+  bottom: 35.45%;
+  border: 2px;
+  color: #FFA84C;
+}
+.calendar{
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  left: 145px;
+  top: 21px;
+  border: 2px;
+  color : #FFFFFF
 }
 .Bread{
   position:absolute;
