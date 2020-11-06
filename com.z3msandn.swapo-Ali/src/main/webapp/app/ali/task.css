@@ -70,11 +70,12 @@ position: absolute;
 }
 .bell{
   position: absolute;
-  width: 18px;
-  height: 20px;
-  left: 1354px;
-  top: 21px;
-  border: 2px;
+  left: 86.24%;
+  right: 12.61%;
+  top: 33.87%;
+  bottom: 41.94%;
+
+  border: 2px ;
   color:#FFFFFF;
 }
 .English{
@@ -108,6 +109,15 @@ position: absolute;
   top: 21px;
   border: 2px;
   color : #FFFFFF
+}
+.mail{
+  position: absolute;
+  left: 6.56%;
+  right: 92.17%;
+  top: 37.1%;
+  bottom: 37.1%;
+  border: 2px;
+  color: #FFFFFF;
 }
 .Bread{
   position:absolute;
