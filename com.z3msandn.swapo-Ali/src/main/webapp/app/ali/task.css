@@ -119,6 +119,24 @@ position: absolute;
   border: 2px;
   color: #FFFFFF;
 }
+.check-square{
+  position: absolute;
+  left: 1.4%;
+  right: 97.45%;
+  top: 35.48%;
+  bottom: 35.48%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.message-square{
+  position: absolute;
+ left: 4.01%;
+  right: 94.84%;
+  top: 35.48%;
+  bottom: 35.48%;
+  border:2px;
+  color: #FFFFFF;
+}
 .Bread{
   position:absolute;
   width: 1570px;
