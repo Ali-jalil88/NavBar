@@ -97,14 +97,28 @@ position: absolute;
   border: 2px  #FFFFFF;
 }
 .bell{
+  height: 20px;
+  width: 18px;
+  left: 1354px;
+  top: 21px;
+  border-radius: 0px;
+  border: 2px  #FFFFFF
+}
+.bell img.bell1{
   position: absolute;
   left: 86.24%;
   right: 12.61%;
   top: 33.87%;
   bottom: 41.94%;
-
-  border: 2px ;
-  color:#FFFFFF;
+  border: 2px  #FFFFFF;
+}
+.bell img.bell2{
+  position: absolute;
+  left: 86.71%;
+  right: 13.07%;
+  top: 64.51%;
+  bottom: 33.87%;
+  border: 2px  #FFFFFF;
 }
 .English{
   position: absolute;
@@ -112,7 +126,6 @@ position: absolute;
   left: 81.08%;
   right: 15.54%;
   top: calc(50% - 17px/2 + 1.5px);
-
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -126,8 +139,7 @@ position: absolute;
   right: 86.94%;
   top: 33.87%;
   bottom: 35.45%;
-  border: 2px;
-  color: #FFA84C;
+  border: 2px  #FFA84C;
 }
 .calendar{
   position: absolute;
