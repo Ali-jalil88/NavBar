@@ -73,14 +73,28 @@ position: absolute;
   line-height: 13px;
   color: #FFFFFF;
 }
-.search{
-  position: absolute;
-  width: 18px;
+.search {
   height: 18px;
+  width: 18px;
   left: 1394px;
   top: 22px;
-  border: 2px;
-  color: #FFFFFF;
+  border-radius: 0px;
+}
+.search img.search1{
+  position: absolute;
+  left: 88.79%;
+  right: 10.19%;
+  top: 35.48%;
+  bottom: 38.71%;
+  border: 2px #FFFFFF;
+}
+.search img.search2{
+  position: absolute;
+  left: 89.66%;
+  right: 10.06%;
+  top: 57.5%;
+  bottom: 35.48%;
+  border: 2px  #FFFFFF;
 }
 .bell{
   position: absolute;
@@ -147,7 +161,6 @@ position: absolute;
   right: 92.17%;
   top: 37.1%;
   bottom: 37.1%;
-
   border: 2px ;
  color:  #FFFFFF;
 }
