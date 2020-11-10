@@ -251,6 +251,7 @@ color: #FFFFFF;
   height: 40px;
   left: 314px;
   top:117px ;
+
 }
 .BreadCrumbs.settings{
   position: absolute;
@@ -286,6 +287,90 @@ img.OvalSettings{
   border-radius: 30px;
   background: #7E72F2;
   position: absolute;
-
 }
-
+img.Electronics{
+  position: absolute;
+  height: 17px;
+  width: 78px;
+  left: 356px;
+  top: 11px;
+  border-radius: 0px;
+  color: #FFFFFF;
+}
+img.eCommerce{
+position: absolute;
+  height: 17px;
+  width: 87px;
+  left: 238px;
+  top: 11px;
+  border-radius: 0px;
+  color: #7E72F2;
+}
+.PathChevrons-right{
+  position: absolute;
+  left: 21.27%;
+  right: 78.47%;
+  top: 40%;
+  bottom: 40%;
+  border: 1px;
+  color: #FFFFFF;
+}
+.PathChevrons-right1{
+  position: absolute;
+  left: 21.72%;
+  right: 78.03%;
+  top: 40%;
+  bottom: 40%;
+  border: 1px;
+  color: #FFFFFF;
+}
+.PathChevrons-right2{
+  position: absolute;
+  left: 13.76%;
+  right: 85.99%;
+  top: 40%;
+  bottom: 40%;
+  border: 1px;
+  color: #FFFFFF;
+}
+.PathChevrons-right3{
+  position: absolute;
+  left: 14.2%;
+  right: 85.54%;
+  top: 40%;
+  bottom: 40%;
+  border: 1px;
+  color: #FFFFFF;
+}
+.home{
+  position: absolute;
+  width: 13px;
+  height: 15px;
+  left: 189px;
+  top: 12px;
+  border: 1px;
+  color: #7E72F2;
+}
+.Path24{
+  position: absolute;
+  left: 10.76%;
+  right: 89.17%;
+  top: 10%;
+  bottom: 10%;
+  border: 1px solid #979797;
+}
+.CardActions{
+  height: 29px;
+  width: 154px;
+  left: 0px;
+  top: 5px;
+  border-radius:0px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: absolute;
+}
