@@ -451,7 +451,7 @@ position: absolute;
   height: 72px;
   left: 0%;
   right: 54.55%;
-  top: calc(50% - 72px/2 - 81.92px);
+  top: calc(50% - 92px/2 - 81.92px);
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -550,6 +550,85 @@ position: absolute;
   border: 2px;
   color: #FFFFFF;
 }
+.RectangleLayout{
+  position: absolute;
+  left: 0%;
+  right: 92.34%;
+  top: 17.87%;
+  bottom: 75.32%;
+  border: 2px;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+.PathLayout{
+  position: absolute;
+  left: 0%;
+  right: 92.34%;
+  top: 19.95%;
+  bottom: 79.67%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1Layout{
+  position: absolute;
+  left: 2.34%;
+  right: 97.24%;
+  top: 20.14%;
+  bottom: 75.32%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.chevron-down{
+  height: 6px;
+  width: 10px;
+  left: 202.4893798828125px;
+  top: 55.71490478515625px;
+  border-radius: 0px;
+  position: absolute;
+  /*transform: rotate(-90deg);*/
+}
+.rightArrow3{
+  height: 5.021276473999023px;
+  width: 10px;
+  left: 202.4893798828125px;
+  top: 205.34893798828125px;
+  border-radius: 0px;
+  position: absolute;
+  /*transform: rotate(-90deg);*/
+}
+.rightArrow2{
+  height: 5.021276473999023px;
+  width: 10px;
+  left: 202.4893798828125px;
+  top: 131.0340576171875px;
+  border-radius: 0px;
+  position: absolute;
+
+}
+.PathRightArrow2{
+  position: absolute;
+  left: 3%;
+  right: 0%;
+  top: 199.15%;
+  bottom: -199.15%;
+  border: 2px;
+  color: #FFFFFF;
+  /*transform: rotate(-90deg);*/
+}
+
+/*.Path2RightArrow{*/
+/*  height: 5.021276473999023px;*/
+/*  width: 10px;*/
+/*  left: 0px;*/
+/*  top: 10px;*/
+/*  border-radius: 0px;*/
+/*  border: 2px;*/
+/*  color: #FFFFFF;*/
+/*  position: absolute;*/
+/*  !*transform: rotate(-90deg);*!*/
+
+/*}*/
+
 
 
 
