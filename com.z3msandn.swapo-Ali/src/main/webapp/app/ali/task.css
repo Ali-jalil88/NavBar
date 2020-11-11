@@ -630,7 +630,91 @@ position: absolute;
   letter-spacing: 0px;
   text-align: left;
   color: #FFFFFF;
-
+}
+.Forms{
+  position: absolute;
+  width: 208px;
+  height: 194px;
+  left: 35px;
+  top: 671px;
+}
+.rightArrowForms{
+  height: 5.025906562805176px;
+  width: 10px;
+  left: 202.487060546875px;
+  top: 56.766845703125px;
+  border-radius: 0px;
+  position: absolute;
+}
+.PathRightForms{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 198.97%;
+  bottom: -198.97%;
+  border: 2px;
+  color: #FFFFFF;
+  /*transform: rotate(-90deg);*/
+}
+.copy{
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  left: 0px;
+  top: 43.22px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.RectangleCopy{
+  height: 10.453886032104492px;
+  width: 10.399999618530273px;
+  left: 5.5999755859375px;
+  top: 48.851806640625px;
+  border-radius: 2px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.PathCopy{
+  height: 10.453886032104492px;
+  width: 10.399999618530273px;
+  left: 0px;
+  top: 43.22279357910156px;
+  border-radius: 0px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.check-circle{
+  height: 17px;
+  width: 16px;
+  left: 0px;
+  top: 164.84974670410156px;
+  border-radius: 0px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.PathCheck-circleForms{
+  height: 16.08396339416504px;
+  width: 16.000045776367188px;
+  left: -0.00006103515625px;
+  top: 165.6488800048828px;
+  border-radius: 0px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.Path2Check-circleForms{
+  height: 8.049491882324219px;
+  width: 10.399999618530273px;
+  left: 5.5999755859375px;
+  top: 167.2621841430664px;
+  border-radius: 0px;
+  border: 2px;
+  color: #FFFFFF;
+  position: absolute;
 }
 
 /*.Path2RightArrow{*/
