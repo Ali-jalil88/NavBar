@@ -615,6 +615,23 @@ position: absolute;
   color: #FFFFFF;
   /*transform: rotate(-90deg);*/
 }
+.GridColorsCardTab{
+  height: 224px;
+  width: 90px;
+  left: 27px;
+  top: 31.565948486328125px;
+  border-radius: 0px;
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
 
 /*.Path2RightArrow{*/
 /*  height: 5.021276473999023px;*/
