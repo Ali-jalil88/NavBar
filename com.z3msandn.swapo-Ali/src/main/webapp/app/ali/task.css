@@ -331,7 +331,6 @@ position: absolute;
   height: 194px;
   left: 35px;
   top: 198px;
-
 }
 .RectangleCalendarVerticalMenu{
   position: absolute;
@@ -339,10 +338,219 @@ position: absolute;
   right: 82.11%;
   top: 85.49%;
   bottom: 6.22%;
-
   border: 2px  #FFFFFF;
   border-radius: 2px;
 }
+.PathCalendarVerticalMenu{
+  position: absolute;
+  left: 12.63%;
+  right: 86.32%;
+  top: 84.46%;
+  bottom: 13.47%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1CalendarVerticalMenu{
+  position: absolute;
+  left: 5.26%;
+  right: 93.68%;
+  top: 84.46%;
+  bottom: 13.47%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path2CalendarVerticalMenu{
+  position: absolute;
+  left: 1.05%;
+  right: 82.11%;
+  top: 88.08%;
+  bottom: 11.4%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathCheck-squareVertical{
+  position: absolute;
+  left: 1.05%;
+  right: 82.99%;
+  top: 63.73%;
+  bottom: 28.42%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1Check-squareVertical{
+  position: absolute;
+  left: 6.37%;
+  right: 82.11%;
+  top: 64.17%;
+  bottom: 31.47%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathMessage-squareVertical{
+  position: absolute;
+  left: 1.05%;
+  right: 82.11%;
+  top: 42.49%;
+  bottom: 49.22%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathMailVertical{
+  position: absolute;
+  left: 0%;
+  right: 83.16%;
+  top: 22.8%;
+  bottom: 70.57%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1MailVertical{
+  position: absolute;
+  left: 0%;
+  right: 83.16%;
+  top: 23.63%;
+  bottom: 74.07%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.APP24{
+  position: absolute;
+  height: 52px;
+  left: 0%;
+  right: 60%;
+  top: calc(50% - 72px/2 - 60.91px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  color: #999999;
+}
+.EmailChatTodoCaleVertical{
+  position: absolute;
+  height: 143px;
+  left: 30.42%;
+  right: 0%;
+  top: calc(50% - 143px/2 + 15.08px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.UIElements{
+  position: absolute;
+  width: 209px;
+  height: 236px;
+  left: 35px;
+  top: 413px;
+}
+.UI{
+  position: absolute;
+  height: 72px;
+  left: 0%;
+  right: 54.55%;
+  top: calc(50% - 72px/2 - 81.92px);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  color: #999999;
+}
+.RectangleUI{
+  position: absolute;
+  left: 0%;
+  right: 92.34%;
+  top: 54.89%;
+  bottom: 40%;
+  border: 2px;
+  color: #FFFFFF;
+  border-radius: 2px;
+}
+.PathUI{
+  position: absolute;
+  left: 0%;
+  right: 92.34%;
+  top: 56.65%;
+  bottom: 43.03%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathDropletUI{
+  position: absolute;
+  left: 0%;
+  right: 92.79%;
+  top: 36.02%;
+  bottom: 56.15%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1ArchiveUI{
+  position: absolute;
+  left: 0.7%;
+  right: 93.04%;
+  top: 90.47%;
+  bottom: 5.53%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.RectangleArchiveUI{
+  position: absolute;
+  left: 0%;
+  right: 92.34%;
+  top: 88.94%;
+  bottom: 9.53%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathArchiveUI{
+  position: absolute;
+  left: 3.13%;
+  right: 95.48%;
+  top: 91.55%;
+  bottom: 8.14%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.RectangleGrid1{
+  position: absolute;
+  left: 0%;
+  right: 97.02%;
+  top: 75.22%;
+  bottom: 22.13%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.RectangleGrid2{
+  position: absolute;
+  left: 4.68%;
+  right: 92.34%;
+  top: 75.22%;
+  bottom: 22.13%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.RectangleGrid3{
+  position: absolute;
+  left: 4.68%;
+  right: 92.34%;
+  top: 71.06%;
+  bottom: 26.29%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.RectangleGrid4{
+  position: absolute;
+  left: 0%;
+  right: 97.02%;
+  top: 71.06%;
+  bottom: 26.29%;
+  border: 2px;
+  color: #FFFFFF;
+}
+
 
 
 /*.RectangleVerticalMenu{*/
