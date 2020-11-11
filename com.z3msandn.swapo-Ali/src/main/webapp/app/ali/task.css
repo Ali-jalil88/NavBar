@@ -716,6 +716,118 @@ position: absolute;
   color: #FFFFFF;
   position: absolute;
 }
+.file-text{
+  position: absolute;
+  width: 14px;
+  height: 18px;
+  left: 1px;
+  top: 123.64px;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1file{
+  position: absolute;
+  height: 17.590673446655273px;
+  width: 14px;
+  left: 1px;
+  top: 123.63729858398438px;
+  border-radius: 0px;
+  border: 2px #FFFFFF;
+}
+.Path2file{
+  position: absolute;
+  height: 5.277202129364014px;
+  width: 5.25px;
+  left: 9.75px;
+  top: 123.63729858398438px;
+  border-radius: 0px;
+  border: 2px  #FFFFFF;
+}
+.Path3file{
+  position: absolute;
+  height: 0.8795337080955505px;
+  width: 7px;
+  left: 4.5px;
+  top: 132.87240600585938px;
+  border-radius: 0px;
+  border: 2px  #FFFFFF;
+}
+.Path4file{
+  position: absolute;
+  height: 0.8795337080955505px;
+  width: 7px;
+  left: 4.5px;
+  top: 136.39053344726562px;
+  border-radius: 0px;
+  border: 2px  #FFFFFF;
+}
+.Path5file{
+  position: absolute;
+  height: 0.8795337080955505px;
+  width: 1.75px;
+  left: 4.5px;
+  top: 129.35426330566406px;
+  border-radius: 0px;
+  border: 2px #FFFFFF;
+}
+.sidebar{
+  position: absolute;
+  width: 16px;
+  height: 17px;
+  left: 0px;
+  top: 83.43px;
+  border: 2px #FFFFFF;
+}
+.RectangleSidebar{
+  position: absolute;
+  height: 16.082901000976562px;
+  width: 16px;
+  left: 0px;
+  top: 83.4300537109375px;
+  border-radius: 2px;
+  border: 2px  #FFFFFF;
+}
+.PathSidebar{
+  position: absolute;
+  height: 16.082901000976562px;
+  width: 0.8888888955116272px;
+  left: 4.888916015625px;
+  top: 83.4300537109375px;
+  border-radius: 0px;
+  border: 2px  #FFFFFF;
+}
+.forms24{
+  position: absolute;
+  height: 72px;
+  left: 0%;
+  right: 75%;
+  top: calc(50% - 72px/2 - 60.91px);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  /* or 257% */
+  color: #999999;
+}
+.Tt{
+  position: absolute;
+  height: 163px;
+  width: 120px;
+  left: 27px;
+  top: 30.577728271484375px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+
+}
 
 /*.Path2RightArrow{*/
 /*  height: 5.021276473999023px;*/
