@@ -722,54 +722,53 @@ position: absolute;
   height: 18px;
   left: 1px;
   top: 123.64px;
-  border: 2px;
-  color: #FFFFFF;
-}
-.Path1file{
-  position: absolute;
-  height: 17.590673446655273px;
-  width: 14px;
-  left: 1px;
-  top: 123.63729858398438px;
-  border-radius: 0px;
-  border: 2px #FFFFFF;
-}
-.Path2file{
-  position: absolute;
-  height: 5.277202129364014px;
-  width: 5.25px;
-  left: 9.75px;
-  top: 123.63729858398438px;
-  border-radius: 0px;
   border: 2px  #FFFFFF;
 }
-.Path3file{
-  position: absolute;
-  height: 0.8795337080955505px;
-  width: 7px;
-  left: 4.5px;
-  top: 132.87240600585938px;
-  border-radius: 0px;
-  border: 2px  #FFFFFF;
-}
-.Path4file{
-  position: absolute;
-  height: 0.8795337080955505px;
-  width: 7px;
-  left: 4.5px;
-  top: 136.39053344726562px;
-  border-radius: 0px;
-  border: 2px  #FFFFFF;
-}
-.Path5file{
-  position: absolute;
-  height: 0.8795337080955505px;
-  width: 1.75px;
-  left: 4.5px;
-  top: 129.35426330566406px;
-  border-radius: 0px;
-  border: 2px #FFFFFF;
-}
+/*.Path1file{*/
+/*  position: absolute;*/
+/*  left: 0.48%;*/
+/*  right: 92.79%;*/
+/*  top: 63.73%;*/
+/*  bottom: 27.2%;*/
+
+/*  border: 2px  #FFFFFF;*/
+/*}*/
+/*.Path2file{*/
+/*  position: absolute;*/
+/*  left: 4.69%;*/
+/*  right: 92.79%;*/
+/*  top: 63.73%;*/
+/*  bottom: 33.55%;*/
+
+/*  border: 2px #FFFFFF;*/
+/*}*/
+/*.Path3file{*/
+/*  position: absolute;*/
+/*  left: 2.16%;*/
+/*  right: 94.47%;*/
+/*  top: 68.49%;*/
+/*  bottom: 31.06%;*/
+
+/*  border: 2px #FFFFFF;*/
+/*}*/
+/*.Path4file{*/
+/*  position: absolute;*/
+/*  left: 2.16%;*/
+/*  right: 94.47%;*/
+/*  top: 70.3%;*/
+/*  bottom: 29.24%;*/
+
+/*  border: 2px#FFFFFF;*/
+/*}*/
+/*.Path5file{*/
+/*  position: absolute;*/
+/*  left: 2.16%;*/
+/*  right: 97%;*/
+/*  top: 66.68%;*/
+/*  bottom: 32.87%;*/
+
+/*  border: 2px #FFFFFF;*/
+/*}*/
 .sidebar{
   position: absolute;
   width: 16px;
@@ -1075,6 +1074,195 @@ position: absolute;
   bottom: 53.49%;
   border: 2px;
   color: #FFFFFF;
+}
+.Pages{
+  position: absolute;
+  width: 208px;
+  height: 399px;
+  left: 35px;
+  top: 887px;
+
+}
+.rightPages{
+  position: absolute;
+  left: 97.35%;
+  right: -2.16%;
+  top: 32.53%;
+  bottom: 66.21%;
+  /*transform: rotate(-90deg);*/
+}
+.right2Pages{
+  position: absolute;
+  left: 97.35%;
+  right: -2.16%;
+  top: 7.69%;
+  bottom: 85.05%;
+  /*transform: rotate(-90deg);*/
+}
+/*.PAGES{*/
+/*  position: absolute;*/
+/*  height: 36px;*/
+/*  width: 49px;*/
+/*  left: 0px;*/
+/*  top: 0.04522705078125px;*/
+/*  border-radius: 0px;*/
+/*  font-family: Montserrat;*/
+/*  font-size: 14px;*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  line-height: 36px;*/
+/*  letter-spacing: 0px;*/
+/*  text-align: left;*/
+
+/*  color: #999999;*/
+/*}*/
+.Authentication{
+  position: absolute;
+  height: 378px;
+  width: 120px;
+  left: 27px;
+  top: 30.537689208984375px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #FFFFFF;
+
+}
+.PathFile1{
+  position: absolute;
+  left: 0.96%;
+  right: 92.31%;
+  top: 92.71%;
+  bottom: 2.89%;
+  border: 2px solid transparent;
+}
+.PathFile2{
+  position: absolute;
+  left: 4.75%;
+  right: 92.31%;
+  top: 92.71%;
+  bottom: 5.75%;
+  border: 2px solid transparent;
+}
+.OvalFile{
+  position: absolute;
+  left: 0.48%;
+  right: 92.68%;
+  top: 82.41%;
+  bottom: 14.01%;
+  border: 2px  solid transparent;
+}
+.Path1File{
+  position: absolute;
+  left: 6.31%;
+  right: 91.83%;
+  top: 85.46%;
+  bottom: 13.57%;
+
+  border: 2px solid transparent;
+}
+.OvalInfo{
+  position: absolute;
+  left: 0%;
+  right: 92.31%;
+  top: 72.11%;
+  bottom: 23.87%;
+
+  border: 2px solid transparent;
+}
+.PathInfo{
+  position: absolute;
+  left: 3.65%;
+  right: 95.96%;
+  top: 74.12%;
+  bottom: 25.08%;
+
+  border: 2px solid transparent;
+}
+.OvalHelp{
+  position: absolute;
+  left: 0%;
+  right: 92.31%;
+  top: 61.81%;
+  bottom: 34.17%;
+
+  border: 2px solid transparent;
+}
+.PathHelp{
+  position: absolute;
+  left: 2.73%;
+  right: 95.03%;
+  top: 62.81%;
+  bottom: 35.98%;
+
+  border: 2px solid transparent;
+}
+.OvalUser{
+  position: absolute;
+  left: 2.16%;
+  right: 94.47%;
+  top: 51.51%;
+  bottom: 46.73%;
+
+  border: 2px solid transparent;
+}
+.PathUser{
+  position: absolute;
+  left: 0.48%;
+  right: 92.79%;
+  top: 54.15%;
+  bottom: 44.54%;
+
+  border: 2px solid transparent;
+}
+
+.OvalAnchor{
+  position: absolute;
+  left: 2.69%;
+  right: 95%;
+  top: 41.21%;
+  bottom: 57.59%;
+  border: 2px solid transparent;
+}
+.PathAnchor{
+  position: absolute;
+  left: 3.65%;
+  right: 95.96%;
+  top: 42.41%;
+  bottom: 54.77%;
+  border: 2px solid transparent;
+}
+.PathAnchor1{
+  position: absolute;
+  left: 0%;
+  right: 92.31%;
+  top: 43.22%;
+  bottom: 54.77%;
+  border: 2px solid transparent;
+}
+.PathAlert{
+  position: absolute;
+  left: 0%;
+  right: 92.69%;
+  top: 31.41%;
+  bottom: 65.29%;
+
+  border: 2px solid transparent;
+}
+.PathAlert1{
+  position: absolute;
+  left: 3.67%;
+  right: 95.98%;
+  top: 32.69%;
+  bottom: 66.58%;
+
+  border: 2px solid transparent;
 }
 
 
