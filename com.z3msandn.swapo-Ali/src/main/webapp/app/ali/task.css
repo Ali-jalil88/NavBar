@@ -855,7 +855,7 @@ position: absolute;
 }
 .OTHERS24{
   height: 36px;
-  width: 125px;
+  width: 90px;
   left: 1px;
   top: 0.04522705078125px;
   border-radius: 0px;
@@ -930,6 +930,153 @@ position: absolute;
   border: 2px;
   color: #FFFFFF;
 }
+/*.Extensions{*/
+/*  position: absolute;*/
+/*  height: 194px;*/
+/*  width: 208px;*/
+/*  left: 35px;*/
+/*  top: 1442px;*/
+/*  border-radius: 0px;*/
+/*}*/
+/*.rightArrowExtensions{*/
+/*  position: absolute;*/
+/*  left: 97.35%;*/
+/*  right: -2.16%;*/
+/*  top: 28.16%;*/
+/*  bottom: 69.26%;*/
+/*  transform: rotate(-90deg);*/
+/*}*/
+/*!*.rightArrowExtensions1{*!*/
+/*!*  position: absolute;*!*/
+/*!*  height: 5.0125627517700195px;*!*/
+/*!*  width: 10px;*!*/
+/*!*  left: 0px;*!*/
+/*!*  top: 10px;*!*/
+/*!*  border-radius: 0px;*!*/
+/*!*  border: 2px;*!*/
+/*!*  color: #FFFFFF;*!*/
+/*!*  !*transform: rotate(-90deg);*!*!*/
+/*!*}*!*/
+/*.EXTENSIONS{*/
+/*  position: absolute;*/
+/*  height: 36px;*/
+/*  left: 0%;*/
+/*  right: 39.9%;*/
+/*  top: calc(50% - 36px/2 - 78.95px);*/
+/*  font-family: Montserrat;*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*  font-size: 14px;*/
+/*  line-height: 36px;*/
+/*  color: #999999;*/
+/*}*/
+/*.Select{*/
+/*  position: absolute;*/
+/*  height: 163px;*/
+/*  left: 12.98%;*/
+/*  right: 26.92%;*/
+/*  top: calc(50% - 163px/2 + 15.04px);*/
+/*  font-family: Montserrat;*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*  font-size: 15px;*/
+/*  line-height: 40px;*/
+/*  color: #FFFFFF;*/
+
+/*}*/
+.ChartsMap{
+  position: absolute;
+  width: 209px;
+  height: 112px;
+  left: 34px;
+  top: 1308px;
+}
+.rightArrowCharts{
+  position: absolute;
+  left: 97.37%;
+  right: -2.15%;
+  top: 48.77%;
+  bottom: 46.75%;
+  /*transform: rotate(-90deg);*/
+}
+.CHARTS1{
+  height: 36px;
+  width: 125px;
+  left: 1px;
+  top: 0.04522705078125px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: absolute;
+  color: #999999;
+}
+.Charts2{
+  height: 81px;
+  width: 90px;
+  left: 28px;
+  top: 40.537689208984375px;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+}
+.PathMap{
+  position: absolute;
+  left: 0.48%;
+  right: 91.87%;
+  top: 85%;
+  bottom: 12.01%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.Path1Map{
+  position: absolute;
+  left: 2.74%;
+  right: 96.91%;
+  top: 85%;
+  bottom: 14.61%;
+  border: 2px ;
+  color: #FFFFFF;
+}
+.Path2Map{
+  position: absolute;
+  left: 5.52%;
+  right: 94.13%;
+  top: 87.6%;
+  bottom: 12.01%;
+  border: 2px;
+  color: #FFFFFF;
+}
+.PathPie{
+  position: absolute;
+  left: 0.39%;
+  right: 92.17%;
+  top: 45.89%;
+  bottom: 46.26%;
+  border: 2px ;
+  color: #FFFFFF;
+}
+.Path1Pie{
+  position: absolute;
+  left: 4.26%;
+  right: 91.87%;
+  top: 45.29%;
+  bottom: 53.49%;
+  border: 2px;
+  color: #FFFFFF;
+}
+
 
 .Dashboard{
   position: absolute;
