@@ -4,7 +4,6 @@ import com.z3msandn.workfile.domain.Orders;
 import com.z3msandn.workfile.repository.OrderRepository;
 import com.z3msandn.workfile.service.dto.OrderDTO;
 import org.springframework.stereotype.Service;
-import sun.rmi.runtime.Log;
 
 import java.util.Optional;
 
@@ -25,19 +24,19 @@ public class OrderService{
         return order;
     }
 
-//    public Optional<OrderDTO> updateOrder(OrderDTO orderDTO){
-//         return Optional.of(orderRepository
-//            .findOneByItemId(orderDTO.getItemId()))
-//            .filter(Optional::isPresent)
-//             .map(Optional::get)
-//             .map(order -> {
-//                 order.setItemId(orderDTO.getItemId());
-//                 order.setQuantity(orderDTO.getQuantity());
-//                 order.setUnitPrice(orderDTO.getUnitPrice());
-//                 return order;
-//             })
-//             .map(OrderDTO::new);
-//    }
+    public Optional updateOrder(OrderDTO orderDTO){
+         return Optional.of(orderRepository
+            .findOneByItemId(orderDTO.getItemId()))
+            .filter(Optional::isPresent)
+             .map(Optional::get)
+             .map(order -> {
+                 order.setItemId(orderDTO.getItemId());
+                 order.setQuantity(orderDTO.getQuantity());
+                 order.setUnitPrice(orderDTO.getUnitPrice());
+                 return order;
+             })
+             .map(OrderDTO::new);
+    }
 
     public void deleteOrder(int itemId) {
         orderRepository.findOneByItemId(itemId).ifPresent(order -> {

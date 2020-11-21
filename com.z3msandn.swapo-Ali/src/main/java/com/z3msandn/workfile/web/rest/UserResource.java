@@ -49,7 +49,7 @@ import java.util.*;
  * quite often do relationships with the user, and we don't want them to get the authorities all
  * the time for nothing (for performance reasons). This is the #1 goal: we should not impact our users'
  * application because of this use-case.</li>
- * <li> Not having an outer join causes n+1 requests to the database. This is not a real issue as
+`    * <li> Not having an outer join causes n+1 requests to the database. This is not a real issue as
  * we have by default a second-level cache. This means on the first HTTP call we do the n+1 requests,
  * but then all authorities come from the cache, so in fact it's much better than doing an outer join
  * (which will get lots of data from the database, for each HTTP call).</li>
