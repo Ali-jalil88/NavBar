@@ -24,22 +24,17 @@ public class OrderService{
         return order;
     }
 
-    public Optional updateOrder(OrderDTO orderDTO){
-         return Optional.of(orderRepository
-            .findOneByItemId(orderDTO.getItemId()))
-            .filter(Optional::isPresent)
-             .map(Optional::get)
-             .map(order -> {
+    public Orders updateOrder(OrderDTO orderDTO){
+                 Orders order = new Orders();
                  order.setItemId(orderDTO.getItemId());
                  order.setQuantity(orderDTO.getQuantity());
                  order.setUnitPrice(orderDTO.getUnitPrice());
+                 orderRepository.save(order);
                  return order;
-             })
-             .map(OrderDTO::new);
     }
 
-    public void deleteOrder(int itemId) {
-        orderRepository.findOneByItemId(itemId).ifPresent(order -> {
+    public void deleteOrder(Long id) {
+        orderRepository.findById(id).ifPresent(order -> {
             orderRepository.delete(order);
         });
     }

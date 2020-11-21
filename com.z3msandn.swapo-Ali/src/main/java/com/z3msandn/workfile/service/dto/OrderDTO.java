@@ -3,19 +3,28 @@ package com.z3msandn.workfile.service.dto;
 import com.sun.istack.NotNull;
 
 import javax.persistence.Column;
+import javax.persistence.Id;
 import javax.validation.constraints.Size;
 import java.util.Objects;
 
 public class OrderDTO {
-
-    private int itemId;
+    private Long id;
+    private Long itemId;
     private String quantity;
     private String unitPrice;
 
-    public int getItemId() {
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getItemId() {
         return itemId;
     }
-    public void setItemId(int itemId) {
+    public void setItemId(Long itemId) {
         this.itemId = itemId;
     }
 

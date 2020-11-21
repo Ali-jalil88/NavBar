@@ -13,7 +13,7 @@ import java.util.Objects;
 @Table(name = "jhi-Order")
 public class Orders implements Serializable {
 
-    private static final long Serializable = 1L;
+    private static final long serialVersionUID = 1L;
 
     @NotNull
     @Size(max = 50)
@@ -24,7 +24,7 @@ public class Orders implements Serializable {
     @NotNull
     @Size(max = 50)
     @Column(length = 50)
-    private int itemId;
+    private Long itemId;
 
     @NotNull
     @Size(max = 50)
@@ -36,7 +36,6 @@ public class Orders implements Serializable {
     @Column(length = 50)
     private String unitPrice;
 
-
     public Long getId() {
         return id;
     }
@@ -44,10 +43,10 @@ public class Orders implements Serializable {
         this.id = id;
     }
 
-    public int getItemId() {
+    public Long getItemId() {
         return itemId;
     }
-    public void setItemId(int itemId) {
+    public void setItemId(Long itemId) {
         this.itemId = itemId;
     }
 

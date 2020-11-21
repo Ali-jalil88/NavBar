@@ -24,6 +24,5 @@ public class OrdersController {
         this.orderService = orderService;
         this.orderRepository = orderRepository;
     }
-    @PostMapping("/Orders")
-    public ResponseEntity<Orders> createOrder(@Valid @RequestBody OrderDTO orderDTO)throws URISyntaxException {}
-}
+
+    }

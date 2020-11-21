@@ -7,5 +7,4 @@ import java.util.Optional;
 
 @org.springframework.stereotype.Repository
 public interface OrderRepository extends JpaRepository<Orders,Long> {
-    Optional<Orders> findOneByItemId(int itemId);
 }
