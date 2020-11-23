@@ -5,6 +5,7 @@ import com.z3msandn.workfile.repository.OrderRepository;
 import com.z3msandn.workfile.service.dto.OrderDTO;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -37,5 +38,18 @@ public class OrderService{
         orderRepository.findById(id).ifPresent(order -> {
             orderRepository.delete(order);
         });
+    }
+
+    public List<Orders> findAll() {
+        return null;
+    }
+
+
+    public Orders findOne(Long id) {
+        return null;
+    }
+
+    public Orders save(Orders order) {
+        return null;
     }
 }
